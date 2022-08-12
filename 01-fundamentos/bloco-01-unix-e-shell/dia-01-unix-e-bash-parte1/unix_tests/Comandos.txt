@@ -1,0 +1,42 @@
+==========================================================================
+=================================Parte 1==================================
+mkdir unix_tests
+touch trybe.txt
+cp trybe.txt trybe_backup.txt
+mv trybe.txt skills.txt
+mkdir backup
+mv trybe_backup.txt ./backup
+mkdir backup2
+cd backup
+mv trybe_backup.txt ../backup2
+cd ..
+rmdir backup
+mv backup2 backup
+pwd
+rmdir -rf backup
+clear
+head -5 skills.txt
+tail -4 skills.txt
+rm *.txt
+
+sudo apt install curl
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+cat countries.txt
+less countries.txt
+/Brazil
+grep Brazil countries.txt
+grep -i brazil countries.txt
+touch phrases.txt
+grep -iv 'fox' phrases.txt
+wc -w phrases.txt
+wc -l phrases.txt
+touch empty.tbt
+touch empty.pdf
+cd ~/trybe-exercicios/01-fundamentos/bloco-01-unix-e-shell/dia-01/unix_tests
+ls
+ls *.txt
+ls *.tbt
+apropos list
+whatis ls
+man ls
+==========================================================================

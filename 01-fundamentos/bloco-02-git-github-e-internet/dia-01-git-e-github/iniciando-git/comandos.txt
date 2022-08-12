@@ -1,0 +1,8 @@
+git init - comando para iniciar o repositório Git dentro da pasta onde é executado.
+git status - mostra quais arquivos estão no staging que é a area de preparação antes ddo commit.
+git add - envia os arquivos para o staging, avisa o git que o arquivo ou diretorio teve modificações.
+git commit - captura a snapshot salvando a versão dos arquivos que estavam no stage.
+git remote - comando para conexão com o repositório remoto
+git push - envia as alterações para o repositório remoto
+git branch nomedabranch - cria branch
+git checkout nomedabranch - muda para outra branch, -b cria uma nova branch e vai para ela

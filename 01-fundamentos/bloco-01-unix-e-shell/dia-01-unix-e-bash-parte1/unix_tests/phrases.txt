@@ -1,0 +1,7 @@
+trybe-exercicios/01-fundamentos/
+
+bloco-01-unix-e-shell/dia-01/unix_tests$
+
+trybe-exercicios/01-fundamentos/
+
+bloco-01-unix-e-shell/dia-01/unix_tests$

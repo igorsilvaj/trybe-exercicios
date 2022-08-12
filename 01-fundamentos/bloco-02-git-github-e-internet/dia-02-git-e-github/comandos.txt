@@ -1,0 +1,12 @@
+git clone url
+git log --diff-filter=D --summary    / --diff-filter=[(A|C|D|M|R|T|U|X|B)…​[*]]
+git rm arquivo
+git checkout 4ca8(hash do commit)
+git push 
+git fetch
+git pull
+
+
+
+
+git hash-object

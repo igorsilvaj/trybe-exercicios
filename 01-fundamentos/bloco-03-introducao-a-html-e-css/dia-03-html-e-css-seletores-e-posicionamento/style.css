@@ -1,3 +1,15 @@
+h1, p, li {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+li:hover {
+    background-color: grey;
+}
+li:active {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .caixa {
     color: white;
     display: inline-block;
@@ -43,7 +55,6 @@
     top: 178px;
     left: 550px;
     z-index: 3;
-
 }
 .baloon {
     position: absolute;

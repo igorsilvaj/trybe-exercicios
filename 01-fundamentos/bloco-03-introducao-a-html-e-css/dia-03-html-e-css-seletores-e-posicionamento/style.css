@@ -4,28 +4,57 @@
     line-height: 50px;
     text-align: center;
     vertical-align: top;
-  }
-  
-  .width-and-height {
+}
+.width-and-height {
     height: 50px;
     width: 50px;
-  }
-  
-  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
-  .padding {
+}
+/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding {
     padding: 20px;
-  }
-  
-  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
-  .margin {
-    /* padding: 40px; */
+}
+/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin {
+/* padding: 40px; */
     margin: 30px;
-  }
-  
-  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
-  .border {
-    /* padding: 50px; */
+}
+/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border {
+/* padding: 50px; */
     border-width: 5px;
     border-style: solid;
     border-color: black;
-  }
+}
+.super-mario {
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+.goomba {
+    width: 100px;
+    position: absolute;
+    top: 365px;
+    left: 120px;
+    z-index: 2;
+}
+.bowser {
+    width: 400px;
+    position: absolute;
+    top: 178px;
+    left: 550px;
+    z-index: 3;
+
+}
+.baloon {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    z-index: 4;
+}
+.speech {
+    font-size: 25px;
+    position: absolute;
+    top: 190px;
+    left: 320px;
+    z-index: 5;
+}

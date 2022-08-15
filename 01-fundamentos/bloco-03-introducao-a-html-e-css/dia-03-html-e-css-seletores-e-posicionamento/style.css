@@ -1,0 +1,116 @@
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+.width-and-height {
+    height: 50px;
+    width: 50px;
+}
+/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding {
+    padding: 20px;
+}
+/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin {
+/* padding: 40px; */
+    margin: 30px;
+}
+/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border {
+/* padding: 50px; */
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+.super-mario {
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+.goomba {
+    width: 100px;
+    position: absolute;
+    top: 365px;
+    left: 120px;
+    z-index: 2;
+}
+.bowser {
+    width: 400px;
+    position: absolute;
+    top: 178px;
+    left: 550px;
+    z-index: 3;
+}
+.baloon {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    z-index: 4;
+}
+.speech {
+    font-size: 25px;
+    position: absolute;
+    top: 190px;
+    left: 320px;
+    z-index: 5;
+}
+h1, h3, p, li {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+li:hover {
+    background-color: grey;
+}
+li:active {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* .ColorScheeme {
+    #001B2E
+    #294C60
+    #ADB6C4
+    #C8AD55
+    #FFBE0B
+} */
+div:hover {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+div:nth-of-type(1){
+    background-color: #001B2E;
+    color: white;
+}
+div:nth-of-type(2) {
+    background-color: #294C60;
+    color: white;
+}
+div:nth-of-type(3) {
+    background-color: #ADB6C4;
+}
+div:nth-of-type(4) {
+    background-color: #C8AD55;
+}
+div:nth-of-type(5) {
+    background-color: #FFBE0B;
+}
+div:nth-of-type(1) > h3 {
+    font-style: italic;
+}
+div:nth-of-type(2) > h3  {
+    font-style: bold;
+}
+div:nth-of-type(3) > h3  {
+    font-style: italic;
+    font-size: 24px;
+}
+div:nth-of-type(4) > h3 {
+    font-style: bold;
+}
+div:nth-of-type(5) > h3 {
+    font-style: italic;
+}

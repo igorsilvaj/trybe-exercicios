@@ -1,0 +1,32 @@
+* {
+    text-align: center;
+    list-style-type: none;
+}
+#podium {
+    display: inline-block;
+}
+.first {
+    display: block;
+    margin: 0px 200px;
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+}
+.second {
+    display: inline-block;
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+}
+.third {
+    display: inline-block;
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+}
+li {
+    display: inline;
+}

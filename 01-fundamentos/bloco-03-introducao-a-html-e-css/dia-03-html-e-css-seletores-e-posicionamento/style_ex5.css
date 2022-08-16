@@ -1,18 +1,25 @@
+*:link{
+    text-decoration: none;
+    color: black;
+}
+*:visited{
+    color: black;
+}
 ol li{
-    background-color: yellow;
+    background-color: rgb(248, 248, 15);
 }
 ol li:nth-child(even){
-    color: green;
+    color: rgb(8, 129, 8);
 }
 ol li:nth-child(odd){
     text-transform: uppercase;
 }
 h1, h2, h3, h4 {
-    color: red;
+    color: rgb(243, 2, 2);
 }
-h1 em, h2 em, h3 em, h4 em {
+h1 em, h2 em, h3 em {
     font-size: 40px;
-    border: 1px solid black;
+    border: 1px solid rgb(12, 12, 12);
 }
 li{
     font-size: 20px;
@@ -20,27 +27,27 @@ li{
 li em{
     font-weight: bold;
 }
-#linguagens li:not(:nth-child(n+4)){
-    color: blue;
+#linguagens li:nth-child(-n+3){
+    color: rgb(22, 22, 148);
 }
-.pink-bg {
-    background-color: pink;
+.fundo_rosa {
+    background-color: rgb(192, 125, 136);
 }
-#aliados li a:hover {
+#links li a:hover {
     font-weight: 700;
 } 
-#aliados li a[href*="stackoverflow"] {
-    color: orange;
+#links li a[href*="stackoverflow"]:hover {
+    color: rgb(230, 150, 3);
 }
-#aliados li a[href*="w3schools"] {
-    color: green;
+#links li a[href*="w3schools"]:hover {
+    color: rgb(8, 129, 8);
 }
-#aliados li a[href*="mozilla"] {
-    color: black;
+#links li a[href*="mozilla"]:hover {
+    color: rgb(12, 12, 12);
 }
-#aliados li a[href*="devdocs"] {
-    color: yellow;
+#links li a[href*="devdocs"]:hover {
+    color: rgb(248, 248, 15);
 }
-#aliados li a[href*="trybe"] {
-    color: green;
+#links li a[href*="trybe"]:hover {
+    color: rgb(8, 129, 8);
 }

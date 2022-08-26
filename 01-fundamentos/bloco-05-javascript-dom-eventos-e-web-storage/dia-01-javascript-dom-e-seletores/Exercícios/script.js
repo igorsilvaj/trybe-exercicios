@@ -16,6 +16,12 @@ function mudaCorQuadradoVermelho(){
 }
 mudaCorQuadradoVermelho();
 
+function corrigeTexto() {
+    let texto = document.getElementsByClassName('title')[0];
+    texto.innerText = "Exercício 5.1 - Javascript"
+}
+corrigeTexto();
+
 
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:

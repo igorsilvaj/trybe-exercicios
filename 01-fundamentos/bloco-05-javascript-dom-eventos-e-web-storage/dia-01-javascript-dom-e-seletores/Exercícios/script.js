@@ -10,6 +10,12 @@ function mudaCorQuadradoAmarelo() {
 }
 mudaCorQuadradoAmarelo();
 
+function mudaCorQuadradoVermelho(){
+    let cor = document.getElementsByClassName("center-content")[0];
+    cor.style.backgroundColor = 'white';
+}
+mudaCorQuadradoVermelho();
+
 
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:

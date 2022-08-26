@@ -22,6 +22,15 @@ function corrigeTexto() {
 }
 corrigeTexto();
 
+function modificaTexto(){
+    let tagsP = document.getElementsByTagName('p');
+    for (let index = 0; index < tagsP.length; index += 1) {
+        tagsP[index].style.textTransform = 'uppercase';
+    }
+    
+}
+modificaTexto();
+
 
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:

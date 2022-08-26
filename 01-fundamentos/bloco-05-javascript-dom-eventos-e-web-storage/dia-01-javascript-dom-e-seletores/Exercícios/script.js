@@ -31,7 +31,13 @@ function modificaTexto(){
 }
 modificaTexto();
 
-
+function exibeConteudo(){
+    let tagsP = document.getElementsByTagName('p');
+    for (let index = 0; index < tagsP.length; index += 1) {
+        console.log(tagsP[index].innerText);
+    }
+}
+exibeConteudo();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()

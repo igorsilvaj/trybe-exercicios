@@ -1,8 +1,16 @@
 function mudaTexto() {
     let texto = document.getElementsByTagName('p')[1];
     texto.innerText = "Prometo pensar com carinho nisso depois :,)";
-  }
-  mudaTexto();
+}
+mudaTexto();
+
+function mudaCorQuadradoAmarelo() {
+    let cor = document.getElementsByClassName("main-content")[0];
+    cor.style.backgroundColor = `rgb(${76},${164},${109})`;
+}
+mudaCorQuadradoAmarelo();
+
+
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()

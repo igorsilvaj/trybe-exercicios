@@ -85,6 +85,10 @@ function mudaBgHoliday() {
         }
     });
 }
+let itens = document.getElementsByClassName("holiday");
+if (itens[0].style.backgroundColor === 'rgb(159, 242, 159)') {
+    itens[0].style.backgroundColor = 'rgb(238, 238, 238)';
+}
 mudaBgHoliday();
 
 // 4

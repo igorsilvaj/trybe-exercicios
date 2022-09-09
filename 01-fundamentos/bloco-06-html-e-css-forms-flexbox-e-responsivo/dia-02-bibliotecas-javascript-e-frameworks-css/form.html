@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap521/css/bootstrap.min.css">
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="bootstrap521/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <h1 class="display-4 text-muted">Header da página</h1>
+    </header>
+    <main>
+        <section id="container" class="container-sm">
+            <form action="" method="get" id="form" class="row g-3 needs-validation" novalidate>
+                <div id="container" class="text-muted">
+                    <div class="form-group" id="line-container">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" class="form-control" required><br>
+                    </div>
+                    <div class="form-group" id="line-container">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" class="form-control" required><br>
+                    </div>
+                    <div class="form-group" id="line-container">
+                        <input type="radio" required name="options" id="opt-1" class="form-check-input">
+                        <label for="opt-1" class="radios">Opção 1</label>
+                        <input type="radio" name="options" id="opt-2" class="form-check-input">
+                        <label for="opt-2" class="radios">Opção 2</label>
+                        <input type="radio" name="options" id="opt-3" class="form-check-input">
+                        <label for="opt-3" class="radios">Opção 3</label>
+                        <input type="radio" name="options" id="opt-4" class="form-check-input">
+                        <label for="opt-4" class="radios">Opção 4</label>
+                    </div>
+                    <div class="form-group" id="line-container">
+                        <label for="">Espaço para digitar a resposta:</label>
+                        <textarea name="" id="txt-box" cols="30" rows="10" class="form-control" required></textarea>
+                    </div>
+                    <div class="form-group" id="line-container">
+                        <label>Data:</label>
+                        <input type="datetime" data-provide="datepicker" name="" id="" placeholder="dd/mm/aaaa"
+                            class="form-control" required><br>
+                    </div>
+                    <div class="form-group" id="line-container">
+                        <label for="Check">Concordo 1</label>
+                        <input type="checkbox" name="" id="Check" class="form-check-input" required>
+                    </div>
+                    <label for="Check2">Concordo 2</label>
+                    <input type="checkbox" name="" id="Check2" class="form-check-input" required>
+                </div>
+                <button type="submit" id="btn-submit" class="btn btn-success">Enviar</button>
+                <button type="submit" id="btn-clear" class="btn btn-danger">Apagar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

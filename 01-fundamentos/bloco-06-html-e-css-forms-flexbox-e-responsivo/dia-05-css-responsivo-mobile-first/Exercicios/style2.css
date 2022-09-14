@@ -1,0 +1,164 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+header li {
+  font-size: large;
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.aside-one {
+  margin-bottom: 10px;
+}
+
+.aside-two {
+  margin-bottom: 10px;
+}
+
+.main-content {
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  text-align: justify;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+/* Test IPhone SE */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: grey;
+  }
+
+  .container {
+    margin: 30px;
+  }
+
+  header p {
+    font-size: x-large;
+  }
+
+  h1 {
+    font-size: larger;
+  }
+
+  h2 {
+    font-size: large;
+  }
+
+  .aside-one {
+    width: 100%;
+  }
+}
+
+/* Test IPad Mini */
+@media only screen and (min-width: 601px) {
+  body {
+    background-color: wheat;
+  }
+
+  .container {
+    margin: 40px;
+  }
+
+  header p {
+    font-size: x-large;
+  }
+
+  h1 {
+    font-size: larger;
+  }
+
+  h2 {
+    font-size: large;
+  }
+
+  .aside-two {
+    margin-left: 50px;
+    align-self: flex-end;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+
+  .main-content p {
+    max-width: 800px;
+  }
+}
+
+/* Telas maiores que 1023px*/
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: gainsboro;
+  }
+
+  .container {
+    margin: 50px;
+  }
+
+  header p {
+    font-size: xx-large;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  h2 {
+    font-size: larger;
+  }
+
+  .aside-two {
+    margin-left: 50px;
+    align-self: flex-end;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+
+  .main-content p {
+    max-width: 1000px;
+  }
+}

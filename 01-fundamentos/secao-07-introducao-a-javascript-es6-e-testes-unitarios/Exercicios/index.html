@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta Cliques</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        main {
+            height: 100vh;
+            margin: auto;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        section {
+            height: 100%;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: darkgreen;
+            color: white;
+            padding: 200px;
+            font-size: 50px;
+            user-select: none;
+            border-radius: 5%;
+        }
+
+        h1:focus {
+            background-color: green;
+        }
+
+        input {
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            user-select: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1 tabindex="0">Clique aqui!</h1>
+            <input value="0" disabled></input>
+        </section>
+    </main>
+    <script src="script.js"></scriptsr>
+</body>
+</html>

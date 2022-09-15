@@ -37,6 +37,11 @@ console.log(factorial(4));
 const longestWord = (phrase) => phrase.split(' ').sort((a, b) => b.length - a.length)[0];
 console.log(longestWord('Antônio foi ao banheiro e não sabemos o que aconteceu'));
 
+// Crie uma página HTML que possua um contador de cliques.
+const h1 = document.getElementsByTagName('h1')[0];
+const input = document.getElementsByTagName('input')[0];
+h1.addEventListener('click', () => input.value = parseInt(input.value) + 1);
+
 // Crie duas funções JavaScript com as seguintes especificações:
 // Não se esqueça de usar template literals
 // Função 1: Escreva uma função que substitua a letra 'x' em uma frase.
@@ -60,3 +65,18 @@ console.log(longestWord('Antônio foi ao banheiro e não sabemos o que aconteceu
 // JavaScript
 // HTML
 // CSS
+const substituaX = (nome) => {
+    const frase = 'Tryber x aqui!';
+    return frase.replace('x', nome);
+}
+const minhasSkills = (substituaX) => {
+    const skills = ['HTML', 'CSS', 'JS'];
+    let concat = `${substituaX}
+Minhas três principais habilidades são:
+${skills[0]}
+${skills[1]}
+${skills[2]}`
+    return concat;
+}
+
+console.log(minhasSkills(substituaX('Igor')));

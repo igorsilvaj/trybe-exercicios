@@ -28,3 +28,6 @@
 
 # Ignore softskills folder
 00-softskills/
+
+# Ignore node_modules folder
+node_modules

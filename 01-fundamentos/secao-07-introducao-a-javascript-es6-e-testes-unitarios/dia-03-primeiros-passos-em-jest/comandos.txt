@@ -1,0 +1,10 @@
+npm init -y    //Adiciona o packeage.json
+npm install --save-dev jest  //adiciona o packeage-lock.json
+
+
+
+npm test -- --coverage
+
+
+module.exports = sum;
+const sum = require('./script');

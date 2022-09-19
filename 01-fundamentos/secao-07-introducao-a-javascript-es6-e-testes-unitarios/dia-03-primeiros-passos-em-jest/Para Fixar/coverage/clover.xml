@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1663613928305" clover="3.2.0">
+  <project timestamp="1663613928305" name="All files">
+    <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4" elements="21" coveredelements="19" complexity="0" loc="13" ncloc="13" packages="1" files="2" classes="2"/>
+    <file name="loginValidation.js" path="/home/ijsilva/00. Conteudos da trybe/trybe-exercicios/01-fundamentos/secao-07-introducao-a-javascript-es6-e-testes-unitarios/dia-03-primeiros-passos-em-jest/Para Fixar/loginValidation.js">
+      <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
+    <file name="script.js" path="/home/ijsilva/00. Conteudos da trybe/trybe-exercicios/01-fundamentos/secao-07-introducao-a-javascript-es6-e-testes-unitarios/dia-03-primeiros-passos-em-jest/Para Fixar/script.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

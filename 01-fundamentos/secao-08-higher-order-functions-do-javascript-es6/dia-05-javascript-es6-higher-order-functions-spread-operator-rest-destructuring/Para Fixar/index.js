@@ -35,9 +35,7 @@ console.log(secondCountry); // Japan
 console.log(thirdCountry); // China
 console.log(fourthCountry); // Canada
 
-const saudacoes = ['Olá', (saudacao) => console.log(saudacao)];
+const saudacoes = ['Olá', (saudacao) => saudacao];
 // saudacoes[1](saudacoes[0]); // Olá
-
 const [ola, func] = saudacoes;
-
 console.log(func(ola));

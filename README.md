@@ -4,7 +4,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Seção 1: [Unix, Bash e Shell Script](https://github.com/igorsilvaj/trybe-exercicios/tree/main/01-fundamentos/secao-01-unix-e-shell)
 - [x] 1.3 - Fundamentos do Desenvolvimento Web

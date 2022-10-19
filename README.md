@@ -57,8 +57,22 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Seção 8: [Higher Order Functions do JavaScript ES6](https://github.com/igorsilvaj/trybe-exercicios/tree/main/01-fundamentos/secao-08-higher-order-functions-do-javascript-es6)
 - [x] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
-- [x] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [x] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
-- [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
-- [x] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [x] 8.5 - Projeto - Zoo functions
+- [x] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
+- [x] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
+- [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] 8.6 - Projeto - Zoo functions
+
+## Desenvolvimento Front-end :hourglass_flowing_sand:
+
+##### Seção 1: [JavaScript e Testes Assíncronos](https://github.com/igorsilvaj/trybe-exercicios/tree/main/02-front-end/secao-01-javascript-e-testes-assíncronos)
+- [x] 1.1 - JavaScript Assíncrono e Callbacks
+- [x] 1.2 - JavaScript Assíncrono - Fetch API e async/await
+- [x] 1.3 - Jest - Testes Assíncronos
+- [x] 1.4 - Projeto - Carrinho de Compras
+
+##### Seção 2: [Introdução ao React]()
+- [ ] 1.1 - 'Hello, world!' no React!
+- [ ] 1.2 - Componentes React
+- [ ] 1.3 - Projeto - Solar System
+

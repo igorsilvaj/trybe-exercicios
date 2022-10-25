@@ -72,7 +72,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 1.4 - Projeto - Carrinho de Compras
 
 ##### Seção 2: [Introdução ao React]()
-- [ ] 1.1 - 'Hello, world!' no React!
-- [ ] 1.2 - Componentes React
-- [ ] 1.3 - Projeto - Solar System
+- [x] 1.1 - 'Hello, world!' no React!
+- [x] 1.2 - Componentes React
+- [x] 1.3 - Projeto - Solar System
 
+##### Seção 3: [Componentes com EStado, Eventos e Formulários com React]()
+- [x] 1.1 - Componentes com estado e eventos
+- [ ] 1.2 - Formulários no Ract
+- [ ] 1.3 - Projeto - Tryunfo

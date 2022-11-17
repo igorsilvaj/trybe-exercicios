@@ -71,12 +71,36 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 1.3 - Jest - Testes Assíncronos
 - [x] 1.4 - Projeto - Carrinho de Compras
 
-##### Seção 2: [Introdução ao React]()
-- [x] 1.1 - 'Hello, world!' no React!
-- [x] 1.2 - Componentes React
-- [x] 1.3 - Projeto - Solar System
+##### Seção 2: [Introdução ao React](https://github.com/igorsilvaj/trybe-exercicios/tree/main/02-front-end/secao-02-introdu%C3%A7%C3%A3o-ao-react)
+- [x] 2.1 - 'Hello, world!' no React!
+- [x] 2.2 - Componentes React
+- [x] 2.3 - Projeto - Solar System
 
-##### Seção 3: [Componentes com EStado, Eventos e Formulários com React]()
-- [x] 1.1 - Componentes com estado e eventos
-- [ ] 1.2 - Formulários no Ract
-- [ ] 1.3 - Projeto - Tryunfo
+##### Seção 3: [Componentes com EStado, Eventos e Formulários com React](https://github.com/igorsilvaj/trybe-exercicios/tree/main/02-front-end/secao-03-componentes-com-estado-eventos-e-formularios-com-react)
+- [x] 3.1 - Componentes com estado e eventos
+- [x] 3.2 - Formulários no Ract
+- [x] 3.3 - Projeto - Tryunfo
+
+##### Seção 4: [Ciclo de Vida de Componentes e React Router](https://github.com/igorsilvaj/trybe-exercicios/tree/main/02-front-end/secao-04-ciclo-de-vida-de-componentes-e-react-router)
+- [x] 4.1 - Ciclo de vida de componentes
+- [x] 4.2 - React Router
+- [x] 4.3 - Projeto - TrybeTunes
+
+##### Seção 5: [Metodologias Ágeis]()
+- [x] 5.1 - Ciclo de vida de componentes
+- [x] 5.2 - Projeto - Front-end Online Store
+
+##### Seção 6: [Testes automatizados com React Testing Library]()
+- [] 6.1 - RTL - Primeiros passos
+- [] 6.2 - RTL - Mocks e Inputs
+- [] 6.3 - RTL - Testando React Router
+- [] 6.4 - Projeto - Testes em React
+
+##### Seção 7: [Gerenciamento de estado com Redux]()
+- [] 7.1 - Introdução ao Redux - O estado global da aplicação
+- [] 7.2 - Usando o Redux no React
+- [] 7.3 - Usando o Redux no React - Prática
+- [] 7.4 - Usando o Redux no React - Actions Assíncronas
+- [] 7.5 - Testes em React-Redux
+- [] 7.6 - Projeto - Trybe Wallet
+

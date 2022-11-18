@@ -5,7 +5,7 @@ function Item(props) {
   const { content } = props;
   return (
     <div className="Item">
-      {content}
+      { content }
     </div>
   );
 }

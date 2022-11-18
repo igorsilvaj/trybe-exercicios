@@ -6,24 +6,28 @@ class InputTodo extends Component {
     super(props);
     this.state = {
       textTodo: '',
+      isBtnDisabled: true,
     };
 
     this.changeTextTodo = this.changeTextTodo.bind(this);
   }
 
   changeTextTodo(value) {
-    this.setState({ textTodo: value });
+    this.setState({ textTodo: value }, () => {
+      const { textTodo } = this.state;
+      const disable = textTodo.length === 0;
+      this.setState({ isBtnDisabled: disable });
+    });
   }
 
   addItem(value) {
     const { addTodo } = this.props;
-
-    this.setState({ textTodo: '' });
+    this.setState({ textTodo: '', isBtnDisabled: true });
     addTodo(value);
   }
 
   render() {
-    const { textTodo } = this.state;
+    const { textTodo, isBtnDisabled } = this.state;
     return (
       <section className="InputTodo">
         <label htmlFor="inputTodo">
@@ -37,6 +41,7 @@ class InputTodo extends Component {
         </label>
         <button
           type="button"
+          disabled={ isBtnDisabled }
           onClick={ () => this.addItem(textTodo) }
         >
           Adicionar

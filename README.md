@@ -98,9 +98,9 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Seção 7: [Gerenciamento de estado com Redux]()
 - [x] 7.1 - Introdução ao Redux - O estado global da aplicação
-- [] 7.2 - Usando o Redux no React
-- [] 7.3 - Usando o Redux no React - Prática
-- [] 7.4 - Usando o Redux no React - Actions Assíncronas
-- [] 7.5 - Testes em React-Redux
-- [] 7.6 - Projeto - Trybe Wallet
+- [ ] 7.2 - Usando o Redux no React
+- [ ] 7.3 - Usando o Redux no React - Prática
+- [ ] 7.4 - Usando o Redux no React - Actions Assíncronas
+- [ ] 7.5 - Testes em React-Redux
+- [ ] 7.6 - Projeto - Trybe Wallet
 

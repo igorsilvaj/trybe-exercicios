@@ -90,14 +90,14 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 5.1 - Ciclo de vida de componentes
 - [x] 5.2 - Projeto - Front-end Online Store
 
-##### Seção 6: [Testes automatizados com React Testing Library]()
-- [] 6.1 - RTL - Primeiros passos
-- [] 6.2 - RTL - Mocks e Inputs
-- [] 6.3 - RTL - Testando React Router
-- [] 6.4 - Projeto - Testes em React
+##### Seção 6: [Testes automatizados com React Testing Library](https://github.com/igorsilvaj/trybe-exercicios/tree/main/02-front-end/secao-06-testes-automatizados-com-react-testing-library)
+- [x] 6.1 - RTL - Primeiros passos
+- [x] 6.2 - RTL - Mocks e Inputs
+- [x] 6.3 - RTL - Testando React Router
+- [x] 6.4 - Projeto - Testes em React
 
 ##### Seção 7: [Gerenciamento de estado com Redux]()
-- [] 7.1 - Introdução ao Redux - O estado global da aplicação
+- [x] 7.1 - Introdução ao Redux - O estado global da aplicação
 - [] 7.2 - Usando o Redux no React
 - [] 7.3 - Usando o Redux no React - Prática
 - [] 7.4 - Usando o Redux no React - Actions Assíncronas

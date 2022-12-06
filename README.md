@@ -100,7 +100,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 7.1 - Introdução ao Redux - O estado global da aplicação
 - [x] 7.2 - Usando o Redux no React
 - [x] 7.3 - Usando o Redux no React - Prática
-- [ ] 7.4 - Usando o Redux no React - Actions Assíncronas
+- [x] 7.4 - Usando o Redux no React - Actions Assíncronas
 - [ ] 7.5 - Testes em React-Redux
 - [ ] 7.6 - Projeto - Trybe Wallet
 

@@ -96,10 +96,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 6.3 - RTL - Testando React Router
 - [x] 6.4 - Projeto - Testes em React
 
-##### Seção 7: [Gerenciamento de estado com Redux]()
+##### Seção 7: [Gerenciamento de estado com Redux](https://github.com/igorsilvaj/trybe-exercicios/tree/main/02-front-end/secao-07-gerenciamento-de-estado-com-redux)
 - [x] 7.1 - Introdução ao Redux - O estado global da aplicação
-- [ ] 7.2 - Usando o Redux no React
-- [ ] 7.3 - Usando o Redux no React - Prática
+- [x] 7.2 - Usando o Redux no React
+- [x] 7.3 - Usando o Redux no React - Prática
 - [ ] 7.4 - Usando o Redux no React - Actions Assíncronas
 - [ ] 7.5 - Testes em React-Redux
 - [ ] 7.6 - Projeto - Trybe Wallet
